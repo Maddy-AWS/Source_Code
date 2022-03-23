@@ -11,7 +11,7 @@ triggers
 }
 steps
 {
-    maven('clean package', 'maven-sample/single-module/pom.xml')
+    maven('clean package', 'maven-samples/single-module/pom.xml')
 }
 publishers
 {
