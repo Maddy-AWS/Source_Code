@@ -3,7 +3,7 @@ job('First maven using DSL')
     description("First attempt to built a Maven using DSL")
 scm
 {
-    git("https://github.com/Murugesh22/jenkins.git",master)
+    git("https://github.com/Murugesh22/jenkins.git",'master')
 }
 triggers
 {
